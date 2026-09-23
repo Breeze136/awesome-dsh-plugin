@@ -1712,7 +1712,6 @@ dsh plugin --profile web add dshmarket
 - [bbqisbbq/dsh-tiddlywiki](https://github.com/bbqisbbq/dsh-tiddlywiki) — 把 TiddlyWiki 5 变成 DSH 的持久知识库：十个 tiddlywiki_* 智能体工具（带过滤的检索、读写/批量/改名/删除、最近、标签，以及 git 同步与冲突解决），GUI 中央栏经同源代理内嵌完整 TiddlyWiki 编辑器，右侧栏知识库 Tab，会话级汇总本会话读写过的笔记，快速笔记卡片支持草稿自动保存，另可选剪藏书签（选中图片一并存为二进制附件）——全部由自动提交的 git 仓库支撑。
 - [boogoo619/dsh-noteboard](https://github.com/boogoo619/dsh-noteboard) — 工作区级的无限画布便签：便签以 Markdown 文件保存，可手动创建、从对话中摘录或由 AI 提炼生成，并能作为上下文提供给 AI 使用；附带 12 个模型工具与 5 个内置技能，用于创建、打标签、整理、比较与合并便签。
 - [BOWLUNA/dsh-zcode-scribe](https://github.com/BOWLUNA/dsh-zcode-scribe) — 给 DeepSeek Harness 的长期记忆（0.1.0 为只读）：用 scribe_recall 工具读取纯 markdown 记忆房间，路径规则拒绝目录穿越、Unicode 夹带与 NTFS 备用数据流，索引超限必定报告而不静默截断。
-- [Breeze136/dsh-kb-rag#npm-package](https://github.com/Breeze136/dsh-kb-rag/tree/main/npm-package) — 本地文献知识库 RAG：10 个工具（kb_ingest、kb_search、kb_rag、kb_zotero、kb_dedup、kb_clear、kb_fetch、kb_scope、kb_stats、kb_status），BM25+向量+重排混合检索、DOI 可点击溯源问答，全本地 bge 嵌入 + 单文件 SQLite 索引。
 - [busabase/busabase-dsh-plugin](https://github.com/busabase/busabase-dsh-plugin) — 把 DeepSeek Harness 接入 Busabase：检索工作区知识、操作结构化记录与应用、将写入提交为可审阅的 ChangeRequest，并在实时卡片中查看结果。
 - [ccch713/deepddw#ddw-teams-panel](https://github.com/ccch713/deepddw/tree/main/plugins/ddw-teams-panel) — 为 DSH Web 客户端增加多用户设置面板：使用模式选择、成员管理与在线状态、一人多设备绑定，以及各成员记忆体和知识库的切换与共享。
 - [CDeZT/better-basicfun](https://github.com/CDeZT/better-basicfun) — 原生 DSH 基础插件：注册持久化默认工作区，分页只读查看插件、skills、memory、会话、storage、settings、credentials 与 DSH_HOME 文件，并将 CLIProxyAPI 的模型能力同步到原生 Provider 设置。
